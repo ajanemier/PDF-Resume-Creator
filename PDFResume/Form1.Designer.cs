@@ -32,21 +32,20 @@
             this.textBoxPath = new System.Windows.Forms.TextBox();
             this.btnLoad = new System.Windows.Forms.Button();
             this.richTextBoxData = new System.Windows.Forms.RichTextBox();
-            this.btnConvert = new System.Windows.Forms.Button();
             this.btnGenerate = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // textBoxPath
             // 
-            this.textBoxPath.Location = new System.Drawing.Point(51, 415);
+            this.textBoxPath.Location = new System.Drawing.Point(65, 355);
             this.textBoxPath.Name = "textBoxPath";
             this.textBoxPath.Size = new System.Drawing.Size(307, 23);
             this.textBoxPath.TabIndex = 0;
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(51, 445);
+            this.btnLoad.Location = new System.Drawing.Point(117, 384);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(98, 29);
             this.btnLoad.TabIndex = 1;
@@ -56,25 +55,15 @@
             // 
             // richTextBoxData
             // 
-            this.richTextBoxData.Location = new System.Drawing.Point(51, 57);
+            this.richTextBoxData.Location = new System.Drawing.Point(65, 49);
             this.richTextBoxData.Name = "richTextBoxData";
-            this.richTextBoxData.Size = new System.Drawing.Size(307, 348);
+            this.richTextBoxData.Size = new System.Drawing.Size(307, 290);
             this.richTextBoxData.TabIndex = 2;
             this.richTextBoxData.Text = "";
             // 
-            // btnConvert
-            // 
-            this.btnConvert.Location = new System.Drawing.Point(155, 445);
-            this.btnConvert.Name = "btnConvert";
-            this.btnConvert.Size = new System.Drawing.Size(98, 29);
-            this.btnConvert.TabIndex = 3;
-            this.btnConvert.Text = "Convert";
-            this.btnConvert.UseVisualStyleBackColor = true;
-            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
-            // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(260, 445);
+            this.btnGenerate.Location = new System.Drawing.Point(221, 384);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(98, 29);
             this.btnGenerate.TabIndex = 4;
@@ -91,9 +80,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(403, 514);
+            this.ClientSize = new System.Drawing.Size(435, 468);
             this.Controls.Add(this.btnGenerate);
-            this.Controls.Add(this.btnConvert);
             this.Controls.Add(this.richTextBoxData);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.textBoxPath);
@@ -109,7 +97,6 @@
         private TextBox textBoxPath;
         private Button btnLoad;
         private RichTextBox richTextBoxData;
-        private Button btnConvert;
         private Button btnGenerate;
         private OpenFileDialog openFileDialog1;
     }

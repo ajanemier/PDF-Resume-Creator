@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ad07ca86-4e03-4e55-b06e-65fcd9eb342f": {
+      "ProjectGuid": "ad07ca86-4e03-4e55-b06e-65fcd9eb342f",
+      "DisplayName": "PDFResume",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
