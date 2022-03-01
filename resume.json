@@ -1,0 +1,37 @@
+"Resume": {
+  "Personal Information": [
+    {
+        "Name": "Alice Jane M. Malacura",
+        "Age": 22 ,
+        "City Location": "Taguig",
+        "Email": "ajm.malacura@gmail.com",
+		
+    }
+    ],
+
+  "Educational Background": [	
+   {
+        "College": "Polytechnic University of the Philippines-Manila",
+        "Course": "Bachelor of Science in Computer Engineering" ,
+        "High School": "Taguig Science High School",
+        "Elementary": "EM'S Signal Village Elementary School",
+		
+    }
+    ],
+
+"Employment History": [	
+    {
+        "Company 1": "24.7 ai Philippines",
+        "Position": "Customer Associate - Contractual" ,
+        "Duration": "August 2020-December 2020",
+        "Company 2": "Sutherland Global Services",
+        "Position": "Customer Associate" ,
+        "Duration": "June 2021-December 2021",
+        "Company 3": "DXC Technology",
+        "Position": "Security Compliance Consultant" ,
+        "Duration": "December 2021-Present",
+		
+    }
+    ]
+  }
+}
